@@ -1,0 +1,14 @@
+LF-Mobile_miaosha-S-130.16
+172.20.130.16 CPU Used is too high	08 Nov 2016 22:58:53	12m 7s	 	No	
+36	 	15
+LF-Mobile_miaosha-S-130.18
+172.20.130.18 CPU Used is too high	08 Nov 2016 22:58:24	12m 36s	 	No	
+36	 	15
+LF-Mobile_miaosha-S-130.16
+172.20.130.16 mysqld running threads Too much	08 Nov 2016 22:56:49	14m 11s	 	No	
+36	 	15
+LF-Mobile_miaosha-S-130.18
+172.20.130.18 mysqld running threads Too much
+
+
+172.20.130.14 mysqld running threads Too much	08 Nov 2016 22:56:49	14m 11s	 	No	
