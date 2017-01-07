@@ -10,5 +10,6 @@ api_info = {
 }
 zbxapi = ZabbixApi(api_info)
 zbxapi.login()
-a=zbxapi.get_shl('172.20.129.117')
+# a=zbxapi.get_shl('172.20.129.117')
+a=zbxapi.get_hostname_shl('172.20.129.117')
 print(a)

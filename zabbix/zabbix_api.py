@@ -78,6 +78,16 @@ class ZabbixApi:
         }
         return self.get_xxx(method, params, resultkey='host')
 
+    def get_hostname_shl(self, hostip):
+        method = "host.get"
+        params = {
+            "output": "extend",#["name", "status", "host", "groups"],
+            "output": "extend",
+            "selectGroups": "extend"
+            # "filter": {"ip": [hostip.strip()]}
+        }
+        return self.get_xxx(method, params, resultkey='groups')
+
     def set_hostname(self, hostid, hostname):
 
         # hostid = self.get_hostid(hostip.strip())
@@ -139,16 +149,6 @@ class ZabbixApi:
 
         return self.get_xxx(method, params, resultkey='triggerid')
 
-    def get_shl(self, hostip):
-        # itemid = self.get_itemid(hostip, key)
-        method = 'trigger.get'
-        params = {
-             "group": "Mysql",
-            "output": "extend",
-            "selectFunctions": "extend"
-        }
-
-        return self.get_xxx(method, params, resultkey='triggerid')
     def set_trigger_monitored(self, hostip, key, state=0):
 
         triggerid = self.get_triggerid(hostip, key)
