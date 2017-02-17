@@ -13,3 +13,6 @@ for info in f:
         print(ip)
 ips=" ".join(iplist)
 print ips+"\n"
+
+
+# http://www.db110.com/category/%E6%95%B0%E6%8D%AE%E5%BA%93/page/12/  老陈数据库博客,重点看

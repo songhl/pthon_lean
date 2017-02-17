@@ -86,7 +86,7 @@ class ZabbixApi:
             "selectGroups": "extend"
             # "filter": {"ip": [hostip.strip()]}
         }
-        return self.get_xxx(method, params, resultkey='groups')
+        return self.get_xxx(method, params, resultkey='groups')  #使用模块,参数,result获取key
 
     def set_hostname(self, hostid, hostname):
 

@@ -1,14 +1,20 @@
-LF-Mobile_miaosha-S-130.16
-172.20.130.16 CPU Used is too high	08 Nov 2016 22:58:53	12m 7s	 	No	
-36	 	15
-LF-Mobile_miaosha-S-130.18
-172.20.130.18 CPU Used is too high	08 Nov 2016 22:58:24	12m 36s	 	No	
-36	 	15
-LF-Mobile_miaosha-S-130.16
-172.20.130.16 mysqld running threads Too much	08 Nov 2016 22:56:49	14m 11s	 	No	
-36	 	15
-LF-Mobile_miaosha-S-130.18
-172.20.130.18 mysqld running threads Too much
-
-
-172.20.130.14 mysqld running threads Too much	08 Nov 2016 22:56:49	14m 11s	 	No	
+DockerMJQ-Invoiceinfo-S-44.94
+10.187.44.94 Slave Run failed Error	28 Jan 2017 07:23:34	19m 18s	 	No	
+44	 	20
+DockerMJQ-Invoiceinfo-S-1.132
+10.187.1.132 Slave Run failed Error	28 Jan 2017 07:22:50	20m 2s	 	No	
+44	 	20
+DockerMJQ-Jdorders-S-13.23
+10.187.13.23 MYSQL Port cannnot Connet	28 Jan 2017 07:12:54	29m 58s	 	Yes (1)	
+76	 	30
+DockerMJQ-Ept_stock-S-12.209
+10.187.12.209 MYSQL Port cannnot Connet	28 Jan 2017 07:12:49	30m 3s	 	Yes (1)	
+76	 	30
+DockerMJQ-Invoiceinfo-M-130.23
+10.187.130.23 MYSQL Port cannnot Connet	28 Jan 2017 07:12:38	30m 14s	 	No	
+76	12	35
+DockerMJQ-Dsp_data-S-15.214
+10.187.15.214 MYSQL Port cannnot Connet	28 Jan 2017 07:12:35	30m 17s	 	Yes (1)	
+76	12	35
+DockerMJQ-Emp-S-8.167
+10.187.8.167 MYSQL Port cannnot Connet	28 Jan 2017 07:12:25	30m 27s
